@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h> Welcome <span th:text="${username}"></span></h>
+<h2>Your login number is <span th:text="${loginCount}"></span> </h2>
+<a href="/main?logout">Log out</a>
+
+</body>
+</html>
